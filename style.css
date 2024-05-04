@@ -146,6 +146,14 @@ h1.black{
   border-radius: 20px;
 }
 
+.img-logo-ctt img {
+  width:20%;
+}
+
+.img-logo-ctt {
+  text-align: center;
+}
+
 #contactForm {
   margin-left: 75px;
   text-align: left;
