@@ -91,8 +91,8 @@
    text-align: center;
  }
 
- #psferramenta, #leek, #magno, #ns {
-  width: 40%;
+ #psferramenta, #leek, #magno, #ns, #label {
+  width: 45%;
  }
 
  #clients{
@@ -188,8 +188,18 @@ h1.black{
 
 .portifolioImg img {
   width: 100%;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+   box-shadow: 0px 2px 2px #575455;
+}
+
+.portifolioImg:hover img{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .portifolioImg {
   padding: 20px;
+  overflow: hidden;
 }
