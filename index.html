@@ -6,199 +6,10 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+
+ <title> Portfólio de RMT </title>
  
- <title>Portfólio</title>
- <style>
-  body {
-   margin-left: 15%;
-   margin-right: 15%;
-  }
-  .container {
-   display: grid;
-   grid-auto-flow: column;
-   grid-auto-columns: 1fr;
-  }
-
-  #header {
-   font-family: 'Poppins', sans-serif;
-   font-size: 28px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: 42px;
-   text-decoration-line: underline;
-   margin-top: 40px;
-   margin-bottom: 40px;
-
-   color: #070f18;
-  }
-
-  #menu {
-   text-align: right;
-   margin-top: 50px;
-  }
-
-  #menu ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-  }
-
- #menu li {
-   display: inline-block;
-   margin-left: 20px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-style: normal;
-   line-height: 24px;
-
- }
-
- a {
-   color: black;
-   text-decoration: none;
- }
- 
- #buttonCta{
-   background-color: #1F7CFF;
-   border-radius: 50px;
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 24px;
-   text-align: center;
-   color: #ffffff;
-   padding: 10px 25px 10px 25px;
-  
- }
-
- p.gray {
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   font-weight: normal;
-   line-height: 32px;
-   color: #575455;
- }
-
- #headerCta h1 {
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 45px;
-   font-weight: bold;
-   color: #000000;
- }
-
- #headerImg {
-   margin-left: 42px;
- }
- 
- #headerImg img {
-   width: 100%;
- }
-
- .headerLogo{
-   text-align: center;
- }
-
- #clients{
-   margin-top: 50px;
-   margin-bottom: 50px;
- }
-
-#headerClientText{
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   font-weight: normal;
-   line-height: 24px;
-   color: #575455;
-  
-}
-
-h2.red{
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   font-weight: bold;
-   line-height: 24px;
-   color: #f75c4e;
-}
-
-h1.black{
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-size: 36px;
-   font-weight: bold;
-   line-height: 54px;
-   color: #000000;
-   margin-top: 0;
-}
-
-.textCenter {
-  text-align: center; 
-}
-
-#services .textCenter h3 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 30px;
-  color: #070f18;
-}
-
-#contactImg img {
-  width: 100%;
-}
-
-#contactForm {
-  margin-left: 75px;
-  text-align: left;
-}
-
-#contact {
-  margin-top: 100px;
-}
-
-#contactForm input {
-  background-color: #f5f6fB;
-  border-radius: 50px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #575455;
-  border: 0;
-  width: 70%;
-  padding: 15px 30px 15px 30px;
-}
-
-#contactForm button {
-  background-color: #1f7cff;
-  border-radius: 50px;
-  padding: 15px 30px 15px 30px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  color: #ffffff;
-  border: 0;
-}
-
-#portifolioTitle {
-  margin-top: 150px;
-}
-
-.portifolioImg img {
-  width: 100%;
-}
-
-.portifolioImg {
-  padding: 20px;
-}
-
- </style>
 
 </head>
 
@@ -209,9 +20,9 @@ h1.black{
    </div>
    <div id="menu">
      <ul>
-      <li><a href=""> Meus Servicos </a></li>
-      <li><a href=""> Contato </a></li>
-      <li><a href=""> Portfólio </a></li>
+      <li><a href="#services"> Meus Servicos </a></li>
+      <li><a href="#contact"> Contato </a></li>
+      <li><a href="#portifolioTitle"> Portfólio </a></li>
      </ul>
    </div>
 
@@ -220,16 +31,16 @@ h1.black{
       <div id="headerCta">
           <h1>
             Olá, meu nome <br>
-            é Maria 
+            é Rodrigo 
           </h1>
           <p class="gray">
-            Sou programadora e gostaria de apresentar meu <br>
+            Sou programador e gostaria de apresentar meu <br>
             trabalho para voce através deste portifolio.
           </p><br>
-          <a id="buttonCta" href=""> Meus Serviços </a>
+          <a id="buttonCta" href="#services"> Meus Serviços </a>
       </div>
       <div id="headerImg">
-        <img src="/img/maria.svg">
+        <img src="/img/imgtopo.jpeg">
       </div>
         
 
@@ -240,13 +51,16 @@ h1.black{
       meus clientes
     </div>
     <div class="headerLogo">
-      <img src="/img/apple.svg" alt="">
+      <img src="/img/cliente1.jpg" id="psferramenta" alt="">
     </div>
     <div class="headerLogo">
-      <img src="/img/slack.svg" alt="">
+      </a><img src="/img/leek.png" id="leek" alt="">
     </div>
     <div class="headerLogo">
-      <img src="/img/spotify.svg" alt="">
+      <img src="/img/ns.png" id="ns" alt="">
+    </div>
+    <div class="headerLogo">
+      <img src="/img/magno.png" id="magno" alt="">
     </div>
   </div>
   <div class="container textCenter">
@@ -258,33 +72,33 @@ h1.black{
   <div class="container" id="services">
     <div class="textCenter">
       <img src="/img/icon1.svg">
-      <h3> Consultoria </h3>
+      <h3> Gestão de Equipe </h3>
       <p class="gray"> 
-        Te ajudo a organizar sua empresa<br>
-        e melhorar seus resultados.
+        Gestão de equipes multifuncionais<br>
+        especialização em Management 3.0
       </p>
     </div>
     <div class="textCenter">
       <img src="/img/icon2.svg">
-      <h3> E-mail Marketing </h3>
+      <h3> Criador de WebSites </h3>
       <p class="gray">
-        Gerenciar campanhas é difícil.<br>
-        Conte comigo para te ajudar.
+        Vivencia em desenvolvimento de WebSites.<br>
+        programador FronEnd e design thinking.
       </p>
     </div>
     <div class="textCenter">
       <img src="/img/icon3.svg">
-      <h3> Criação de Sites </h3>
+      <h3> Agilista </h3>
       <p class="gray">
-        Desenvolvo seu site inteiro<br>
-        do zero e te entrego prontinho.
+        Certificado internacional<br>
+        em metodologias ageis e SAFe 6
       </p>
     </div>
 
   </div>
   <div class="container" id="contact">
     <div id="contactImg">
-      <img src="/img/contact.svg">
+      <img src="/img/contato.jpg"> 
     </div>
     <div id="contactForm">
       <h2 class="red">
